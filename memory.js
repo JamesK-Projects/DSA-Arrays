@@ -44,4 +44,5 @@ class Memory {
     }
 }
   
-module.exports = Memory
+let myMemory = new Memory()
+module.exports = myMemory
